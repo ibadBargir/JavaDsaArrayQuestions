@@ -1,15 +1,15 @@
-package com.hibernateDatabaseConnection;
+package com.prectice;
 
 import java.util.Scanner;
 
-public class Main {
+public class CalculateSumOfArray {
 
-    public static int calculatesum(int arry[]){
+    public static int calculatesum(int [] arry){
 
         int sum=0;
         System.out.println("Calculating a sum of total:");
         for (int i=0; i < arry.length; i++){
-            System.out.println("Elements "+ i + " = " + "arry[i]");
+            System.out.println("Elements "+ i + " = " + "array[i]");
             sum+=arry[i];
         }
 
@@ -19,13 +19,13 @@ public class Main {
 
         Scanner sc = new Scanner(System.in);
 
-        //Get a Size a Array from user
+        //Get a Size  Array from user
         System.out.println("Enter a Size of Array");
         int size = sc.nextInt();
 
-        //step 2 declar a array
+        //step 2 declare  array
 
-        int number [] = new int[size];
+        int [] number = new int[size];
 
         // step 3 to get values from the user
 
